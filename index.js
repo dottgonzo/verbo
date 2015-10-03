@@ -1,5 +1,4 @@
 var colors=require('colors');
-
 colors.setTheme({
   silly: 'rainbow',
   input: 'grey',
@@ -21,6 +20,4 @@ if(!area){
   area='working'
 }
   console.log((action+'@'+area)[action]+': '+string);
-
 }
-
