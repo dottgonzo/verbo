@@ -1,5 +1,4 @@
 var colors=require('colors');
-
 colors.setTheme({
   silly: 'rainbow',
   input: 'grey',
