@@ -1,6 +1,6 @@
 {
   "name": "verbo",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "debug",
   "main": "index.js",
   "scripts": {
