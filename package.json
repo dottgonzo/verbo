@@ -19,7 +19,6 @@
     "url": "https://github.com/dottgonzo/verbo/issues"
   },
   "dependencies": {
-    "colors": "^1.1.2",
-    "json-print": "0.0.5"
+    "colors": "^1.1.2"
   }
 }
