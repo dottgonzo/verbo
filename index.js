@@ -1,4 +1,5 @@
-var colors=require('colors');
+var colors=require('colors'),
+jsonpretty=require('json-print');
 colors.setTheme({
   silly: 'rainbow',
   input: 'grey',
@@ -19,5 +20,8 @@ if(!action){
 if(!area){
   area='working'
 }
-  console.log((action+'@'+area)[action]+': '+string);
+
+
+
+  console.log((action+'@'+area)[action]+': '+JSON.stringify(string));
 }
